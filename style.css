@@ -1,0 +1,120 @@
+.bg{
+background-image: url('background_img1.png'),url('background_img2.png') ;
+height: 100vh;
+background-repeat: no-repeat,no-repeat;
+background-position: left, right;
+background-size: 40%,60%;
+display: flex;
+}
+.navbarfont{
+    color: black;
+    font-family:'Work Sans', sans-serif;
+}
+.navbarfont:hover,
+.navbarfont:focus{
+    color:darkgrey;
+    text-decoration: none;
+    cursor: pointer;
+}
+.loginbtn{
+    background-color: rgb(255, 111, 0);
+    padding: 14px 50px;
+    border-radius: 50px;
+    font-size: small;
+    color: white;
+    font-family:'Work Sans', sans-serif;
+    top:50px;
+    right:45px;
+    
+    
+
+}
+.font1{
+    color: black;
+    font-family:'Work Sans', sans-serif;
+}
+.font2{
+    color: rgb(255, 111, 0);
+    font-family:'Work Sans', sans-serif;
+}
+.font3{
+    color: white;
+    font-family:'Work Sans', sans-serif;
+}
+.blackcontainer{
+    align-items: center;
+    display: flex;
+    background-color:rgb(43, 43, 43) ;
+    border-radius: 30px;
+}
+.topsection{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+}
+.my-container{
+    align-items: center;
+    display: flex;
+    background-color:rgb(241, 174, 40) ;
+    border-radius: 30px;
+   
+
+}
+.transparentbtn{
+    background-color: transparent;
+    font-size: xx-large;
+    color: lightgrey;
+    border: none;
+}
+
+.custom-range::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 111, 0);
+    border-color: white;
+    border-style:solid;
+    border-width: 5px;
+    margin-top: -10px;
+
+
+  }
+  
+.custom-range::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 111, 0);
+    border-color: white;
+    border-style:solid;
+    border-width: 5px;
+    margin-top: -10px;
+  
+  
+    
+  }
+  .custom-range::-ms-thumb {
+    width: 25px;
+    height: 25px;
+    background: rgb(255, 111, 0);
+    border-color: white;
+    border-style:solid;
+    border-width: 5px;
+    margin-top: -10px;
+
+  }
+  .custom-range::-webkit-slider-runnable-track{
+    background: black;
+    height:2px;
+  
+  }
+
+
+.custom-range::-webkit-slider-runnable-track-webkit-slider-thumb::after {
+    background-color: white;
+}
+.custom-range::-webkit-slider-thumb,
+.custom-range:focus::-webkit-slider-thumb, 
+.custom-range:focus::-moz-range-thumb,
+.custom-range:focus::-ms-thumb {
+    box-shadow: white;
+}
